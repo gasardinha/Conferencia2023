@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+@font-face {
+  font-family: Barbra-High;
+  src: url(fontes/barbra/Barbra-High.otf);
+}
+
+@font-face {
+  font-family: Athena;
+  src: url(fontes/athena/Athena.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+/*MENU DE NAVEGAÇÃO*/
+header {
+    background-color: black;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Basic', sans-serif;
+}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+nav ul.inst-menu  {
+  display: none;
+  list-style: none;
+}
+
+nav li:hover > ul {
+  display: block;
+  text-align: right;
+  height: 25px;
+  padding: 5px;
+  list-style: none;
+}
+
+nav li:hover > img {
+  width: 15px;
+  height: 15px;
+}
+
+/*FIM DO MENU*/
+
+/*PÁGINA HOME PRINCIPAL*/
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.principal {
+    width: auto;
+    color: rgba(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    height: 1000px;
+    background-image: url(imagens/6-1.png);
+    background-position: top right;
+    background-size: cover;
+}
+
+.tt-principal > h1 { 
+  margin-bottom: 45px;
+  font-size: 100px;  
+  font-family: Barbra-High;
+  color: #144948;
+  margin-top: 12%;
+}
+
+.tt-principal > h2 {
+  font-size: 45px;
+  text-transform: initial;
+  border: 5px solid rgb(255, 254, 254);
+  padding: 5px;
+  width: 450px;
+  margin-left: 35%;
+}
+
+.boasvindas {
+  color: white;
+  text-align: center;
+  background: linear-gradient(353deg, rgba(0, 0, 0, 0.301) 0%, rgba(0, 0, 0, 0.425) 7%);
+  height: 600px;
+}
+
+.tt-boas {
+  font-size: 35px; 
+  color: #d8c3a2; 
+  margin-top: 145px;
+}
+
+.subt-boas {
+  font-size: 75px; 
+  color: #d8c3a2;
+}
+
+.txt-boas {
+  font-size: 25px;
+  justify-content: center;
+  width: 100%; 
+  align-items: center;
+
+}
+
+.ex-labs {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 400px;
+  align-items: center;
+}
+
+.tt-labs {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.txt-labs {
+  padding: 50px;
+}
+
+.txt-p {
+  font-size: 25px; 
+  font-weight: bold; 
+  text-align: center; 
+  width: 90%; 
+  border: 2px solid #d8c3a2; 
+  margin-left: 5%; 
+  padding: 5px; 
+  color: #d8c3a2;
+  border-radius: 5px;
+}
+
+
+.labs {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  height: 600px;
+  padding: 30px;
+  color: #d8c3a2;
+  font-family: Athena;
+}
+
+.zelo p, .arte p, .evangelismo p {
+  width: 390px;
+  height: 200px;
+}
+
+.zelo, .arte, .evangelismo {
+  text-align: justify;
+}
+
+.zelo img {
+  width: 410px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.arte  img {
+  width: 410px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.evangelismo img {
+  width: 410px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.zelo p,.arte p, .evangelismo p {
+  margin-left: 3%;
+}
+
+.programacao {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  padding: 30px;
+  color: #d8c3a2;
+  background-color: #016567;
+  font-family: Athena;
+  text-align: justify;
+}
+
+.programacao p {
+  width: 100%;
+}
+
+.horarios {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-image: url(imagens/fundo01.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  font-family: Athena;
+}
+
+
+.horarios h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.horarios p {
+  font-size: 18px;
+}
+
+
+.sexta {
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 35px;
+  width: 250px;
+  height: 400px;
+  transition: all 0.3s ease-out;
+  border: 3px solid white;
+  background-color: black;
+  margin-left: -25px;
+  border-top-right-radius: 20px;
+}
+
+.sab01 {
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 35px;
+  width: 250px;
+  height: 400px;
+  transition: all 0.3s ease-out;
+  border: 3px solid white;
+  background-color: black;
+  margin-left: -25px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.sab02 {
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 35px;
+  width: 250px;
+  height: 400px;
+  transition: all 0.3s ease-out;
+  border: 3px solid white;
+  background-color: #01424C;
+  margin-left: -25px;
+  border-top-left-radius: 20px;
+  color: white;
+}
+
+div > #call {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 30px;
+    border: 2px solid rgba(29, 29, 66, 0.253);
+    text-decoration: double;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*CONFIGURANDO OS CARDS*/
+.ingressos {
+  background-color: black;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Basic', sans-serif;
+    height: 400px;
+}
+  .lote1 {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 35px;
+    width: 200px;
+    height: auto;
+    transition: all 0.3s ease-out;
+    border-left: 3px solid #075dd6;
+    background-color: #F9FCF8;
+  }
+
+  .lote1:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .lote2 {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 35px;
+    width: 200px;
+    height: auto;
+    transition: all 0.3s ease-out;
+    border-left: 3px solid #4947c5;
+    background-color: #F9FCF8;
+  }
+
+  .lote2:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+ 
+/*FIM DAS CONFIGURAÇÕES DOS CARDS E DA PÁGINA HOME*/
+
+
+/*PÁGINA CADASTRO*/
+.m-cad {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+form {
+    border:  2px solid black;
+    color: black;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto 0px auto;
+    background-color: #3bb54a;
+}
+
+form > h1, label {
+    padding: 5px;
+}
+
+form > input {
+    width: 350px;
+}
+
+
+/*FIM DA PÁGINA CADASTRO*/
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  font-family: 'Basic', sans-serif;
+  font-size: 11px;
+  padding: 5px;
+  color: white;
+}
+
+/*SITE RESPONSIVO  */
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+
+  body {
+    width: 90vw
+  }
+
+  header h1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .principal {
+
+    height: 597px;
+    background-image: url(imagens/6-1.png);
+    background-position: center center;
+  }
+
+  .tt-principal {
+    text-align: center;
+  }
+
+  .tt-principal > h1 {
+    font-size: 50px;
+  }
+
+ .tt-principal > h2 {
+    font-size: 25px;
+    border: 5px solid rgb(255, 254, 254);
+    padding: 5px;
+    width: 250px;
+    margin-left: 50px;
+ }
+
+  .boasvindas {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 800px;
+    padding: 0px;
+    margin-bottom: 60px;
+    margin-left: 2%;
+  }
+
+  .tt-boas {
+    font-size: 20px; 
+  }
+  
+  .subt-boas {
+    font-size: 45px; 
+  }
+  
+  .txt-boas {
+    width: 95%;
+    font-size: 20px;
+    margin: 3%;
+  }
+
+  .txt-labs {
+    width: 90%;
+  }
+
+  .ex-labs {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 655px;
+    padding: 5px;
+  }
+
+
+  .labs{
+    display: block;
+    flex-direction: column;
+    width: 95%;
+    height: 700px;
+    padding: 5px;
+    margin-bottom: 100px;
+  }
+
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1200px;
+    height: auto;
+    background-image: url(imagens/fundo01.jpg);
+    background-position: top right;
+  }
+
+  .horarios h1 {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+
+  .zelo, .arte, .evangelismo {
+    width: 100%;
+  }
+
+  .zelo img, .arte img, .evangelismo img{
+    width: 99%;
+  }
+
+ 
+
+  .zelo p, .arte p, .evangelismo p {
+    width: 98%;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .sab01 {
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 20px;  
+    width: 250px;
+    height: 400px;
+    transition: all 0.3s ease-out;
+    border: 3px solid white;
+    background-color: black;
+    margin-left: 105px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .sab02, .sexta {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin-bottom: 20px;
+  }
+
+  .lote1, .lote2 {
+    margin-left: 15%;
+  }
+
+  .footer {
+    font-size: 5px;
+  }
+  
+}
+
+/* FIM DO SITE RESPONSIVO */
