@@ -389,7 +389,10 @@ footer {
 /*SITE RESPONSIVO  */
 @media only screen and (min-width: 200px) and (max-width: 480px) {
 
-
+  main {
+    width: 100%;
+    
+  }
 
   header h1 {
     text-align: center;
@@ -401,7 +404,7 @@ footer {
   }
 
   .principal {
-
+    
     height: 597px;
     background-image: url(imagens/6-1.png);
     background-position: center center;
@@ -420,7 +423,7 @@ footer {
     border: 5px solid rgb(255, 254, 254);
     padding: 5px;
     width: 250px;
-    margin-left: 50px;
+    margin-left: 15%;
  }
 
   .boasvindas {
