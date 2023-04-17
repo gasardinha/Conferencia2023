@@ -389,9 +389,7 @@ footer {
 /*SITE RESPONSIVO  */
 @media only screen and (min-width: 200px) and (max-width: 480px) {
 
-  body {
-    width: 90vw
-  }
+
 
   header h1 {
     text-align: center;
@@ -466,9 +464,9 @@ footer {
     display: block;
     flex-direction: column;
     width: 95%;
-    height: 700px;
+    height: 750px;
     padding: 5px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
   }
 
   .horarios {
@@ -487,18 +485,23 @@ footer {
 
   .zelo, .arte, .evangelismo {
     width: 100%;
+    
   }
 
   .zelo img, .arte img, .evangelismo img{
     width: 99%;
   }
 
- 
+  .arte {
+    margin-bottom: 30px;
+    
+  }
 
   .zelo p, .arte p, .evangelismo p {
     width: 98%;
     margin-left: 0px;
     text-align: center;
+    
   }
 
   .sab01 {
